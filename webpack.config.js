@@ -1,14 +1,16 @@
+var path = require('path');
+
 module.exports = {
-    entry: './app.js',
-  
-    output: {
-      filename: 'bundle.js',
-      publicPath: ''
-    },
-  
-    module: {
-      loaders: [
-        { test: /\.tsx$/, exclude: /node_modules/, loader: 'ts-loader' }
-      ]
-    }
-  }
+	entry: './app.tsx',
+	output: {
+		filename: 'bundle.js'
+	},
+	resolve: {
+		extensions: ['.tsx', '.ts', '.js']
+	},
+	module: {
+		loaders: [
+			{ test: /\.tsx$/, loader: 'ts-loader' }
+		]
+	}
+}

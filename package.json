@@ -4,6 +4,7 @@
   "description": "Example usage of react-shadow-wrapper",
   "main": "webpack.config.js",
   "dependencies": {
+    "@types/react-dom": "^16.0.2",
     "http-server": "^0.10.0",
     "react-dom": "^16.0.0",
     "react-shadow-wrapper": "^1.0.4",
