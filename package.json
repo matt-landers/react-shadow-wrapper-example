@@ -1,0 +1,35 @@
+{
+  "name": "react-shadow-wrapper-example",
+  "version": "1.0.0",
+  "description": "Example usage of react-shadow-wrapper",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "http-server": "^0.10.0",
+    "react-dom": "^16.0.0",
+    "react-shadow-wrapper": "^1.0.4",
+    "ts-loader": "^3.1.0",
+    "typescript": "^2.5.3",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "webpack-dev-server --inline --content-base ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matt-landers/react-shadow-wrapper-example.git"
+  },
+  "keywords": [
+    "react",
+    "reactjs",
+    "react",
+    "native"
+  ],
+  "author": "Matt Landers",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matt-landers/react-shadow-wrapper-example/issues"
+  },
+  "homepage": "https://github.com/matt-landers/react-shadow-wrapper-example#readme"
+}
